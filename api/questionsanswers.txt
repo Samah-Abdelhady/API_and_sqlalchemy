@@ -1,0 +1,13 @@
+1 - Given a task in the project you’re working on, it’s your first time implementing a featurelike this so you search the internet for a solution and you find two open source libraries which could help you implement this task. How would you choose which one to use?
+
+==> I would read about the two libraries and know how both work, so that I have more information which might help me for future issues. And for the main current task, after reading about both libraries, I will choose the one which will make the project more efficient whatever in used memory, time complixity , speed and more.
+
+
+2- If there’s one improvement you can add to your favorite programming language orframework, what would that be?
+
+==> Enhance and enhance web apps security using python without using third party security option. Secure my app, also have access to data and not share it with security programs which gives only part of data.
+
+
+3- StarWars or Star Trek?
+
+==> Is there is no third choice? Ok, I would choose [StarWars].
