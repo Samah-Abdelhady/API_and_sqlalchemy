@@ -1,4 +1,4 @@
-## HTIN: in the project requirements if it cant install every thing at once, try to install every package manaually. Read me has the same documention info, so you can skip that and read documention.
+## HTIN: in the project requirements if it can't install every thing at once, try to install every package manaually. Read me has the same documention info, so you can skip that and read documention.
 
 # Task Documentation:
 
