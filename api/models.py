@@ -1,14 +1,5 @@
-import os
-from flask_sqlalchemy import SQLAlchemy
-import json
+from database import db
 from sqlalchemy.dialects.postgresql import JSON
-
-
-database_name = "age_of_empiress"
-database_path = 'postgres://{}:{}@{}/{}'.format('postgres','postgres', 'localhost:5432', database_name)
-
-db = SQLAlchemy()
-
 
 # table to hold all units bounses from attack
 class AttackBouns(db.Model):
@@ -95,5 +86,3 @@ class Unit(db.Model):
   def insert(self):
     db.session.add(self)
     db.session.commit()
-  
-  
