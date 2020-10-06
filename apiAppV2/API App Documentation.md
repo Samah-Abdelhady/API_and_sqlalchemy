@@ -1,4 +1,4 @@
-# Task Documentation:
+# API APP Documentation:
 
 ## Age of Empire||
 ### Age of Empire|| app is about how to get required data from online api and save every new data into postgres database. It is a webpage to manages:
@@ -17,18 +17,14 @@ To use this project on your local machine, you should alredy have
   * pip
   * postgres database (https://www.postgresql.org/download/)
 
-### install required packages and libraries
+### install required packages and libraries (it is an app which run on cli)
 from requirements file run: pip install requirements.txt . As all required packagesare included in it 
 
 To run the application use the following commands (on Windows):
-1. set FLASK_APP=flasker=api.py
-2. set FLASK_DEBUG=True
-3. flask run
+1. python api.py
 
 To run the application use the following commands (on Linux):
-1. export FLASK_APP=flasker=api.py
-2. export FLASK_ENV=development
-3. flask run
+1. python3 api.py
 
 to create the database database (I used migration):
 * make sure you have ceatr your database first.
@@ -47,18 +43,6 @@ to create the database database (I used migration):
 It is recommended to work within a virtual environment whenever using Python for projects. This keeps your dependencies for each project separate and organaized. Instructions for setting up a virual enviornment for your platform can be found in the [python docs](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/)
 
 The application is run on: http://127.0.0.1:5000/  by default,and to get data copy and paste http://127.0.0.1:5000/unit  on your browser.
-
-
-
-### Tests
-I have used postman program to test in 'apiTest.postman_collection' file
-* import collection to postman and run it, (i have added a file has screen shot of test successfully)
-* install postman program from 'https://www.postman.com/downloads/'
-1. keep your app running
-2. import package to postman and test it
-
-* Hint: as I didn't pass value to command line from postman program before, so when the test running I added the unit_name manaually to command line and test work successfully
-
 
 
 ## API Reference

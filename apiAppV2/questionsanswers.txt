@@ -5,7 +5,7 @@
 
 2- If there’s one improvement you can add to your favorite programming language orframework, what would that be?
 
-==> Enhance and enhance web apps security using python without using third party security option. Secure my app, also have access to data and not share it with security programs which gives only part of data.
+==> I have worked with auth0 as third party security program to secure a website project in python, but it did return only part of clients data and the important data wasn't accessed even by website owner but it was accessed by auth0 itself. So, I can't git my clients data and can't analysis their data like communication companies. So I want to enhace myself in python security to be create as best as security for my website and control data, also save my clients data safe.
 
 
 3- StarWars or Star Trek?
